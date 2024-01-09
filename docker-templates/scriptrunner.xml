@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+  <TemplateURL>https://raw.githubusercontent.com/Tomek-Stolarczyk/unraid_templates/master/unraid_templates/scriptrunner.xml</TemplateURL>
+  <Beta>False</Beta>
+  <Category></Category>
+  <Name>Tomek-scriptrunner</Name>
+  <Description>
+  </Description>
+  <Overview>
+  </Overview>
+  <Support></Support>
+  <ReadMe></ReadMe>
+  <Registry>https://registry.hub.docker.com/r/tomekstolarczyk/unraid-script-template/</Registry>
+  <GitHub>https://github.com/Tomek-Stolarczyk/unraid_templates</GitHub>
+  <Repository>unraid_templates</Repository>
+  <Project></Project>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Networking>
+    <Mode>bridge</Mode>
+  </Networking>
+  <Environment>
+    <Variable>
+      <Name></Name>
+      <Value></Value>
+    </Variable>
+  </Environment>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/user/appdata/config</HostDir>
+      <ContainerDir>/root/server</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Banner></Banner>
+  <WebUI></WebUI>
+  <Icon></Icon>
+  <DonateText></DonateText>
+  <DonateLink></DonateLink>
+  <DonateImg></DonateImg>
+  <ExtraParams></ExtraParams>
+</Containers>
